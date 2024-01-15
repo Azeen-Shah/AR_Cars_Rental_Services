@@ -14,6 +14,8 @@ nav {
     align-items: center;
     border-radius: 45px;
     margin-bottom: 15px;
+    position: sticky;
+    top: 0px;
 }
 
 nav a {
@@ -56,6 +58,42 @@ form{
 .form input{
     margin: 0px;
     width: 90%;
+    height: 30px;
+}
+
+.form select{
+    margin: 0px;
+    width: 90%;
+    height: 30px;
+}
+
+#driver{
+    margin-bottom: 0px;
+}
+
+.radio{
+    margin-right: 30px;
+}
+
+#Submit{
+    margin: 30px;
+    padding: 5px;
+    width: 80%;
+    border-radius: 30px;
+    background-color: #CC3333;
+}
+
+#Submit a{
+    color: white;
+    text-decoration: none;
+}
+
+#Submit:hover{
+    background-color: black;
+}
+
+#Submit a:hover{
+    color: #CC3333;
 }
 
 footer {
