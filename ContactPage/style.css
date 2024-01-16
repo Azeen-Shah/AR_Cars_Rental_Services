@@ -42,10 +42,16 @@ a img{
     border-bottom: 2px solid #CC3333;
 }
 
+#all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #con{
     width: 90vw;
     background-color: #fff;
-    margin: auto;
+    margin: 0px;
     border: 1px solid #ddd;
     border-radius: 20px;
     display: flex;
@@ -90,6 +96,67 @@ form{
     color: #CC3333;
 }
 
+h1{
+    text-align: center;
+    color: #CC3333;
+    margin: 30px 0px;
+    width: 90vw;
+}
+
+#main{
+    width: 90vw;
+    background-color: #fff;
+    margin: 0px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social{
+    width: 45%;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #CC3333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: #CC3333;
+    padding: 5px;
+    /* margin: 0px; */
+}
+
+#number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MyNum{
+    margin: 0px 4px;
+}
+#whatsapp{
+    height: 30px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.size{
+    height: 40px;
+    margin: 10px;
+}
+
 footer {
     background-color: black;
     color: #fff;
@@ -111,5 +178,11 @@ footer {
     }
     footer{
         border-radius: 0px;
+    }
+}
+
+@media (max-width: 1000px){
+    .social{
+        width: 85%;
     }
 }
