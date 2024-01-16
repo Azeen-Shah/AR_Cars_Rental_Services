@@ -13,6 +13,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 45px;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -28,12 +29,61 @@ a img{
     height: 2.5em;
 }
 
+#con{
+    width: 90vw;
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 80%;
+}
+
+.con{
+    margin: 30px;
+}
+
+.con p{
+    margin: 0px;
+    color: #CC3333;
+    font-weight: 600;
+}
+
+.con input{
+    margin: 0px;
+    width: 90%;
+    height: 30px;
+}
+
+.con textarea{
+    width: 90%;
+}
+
+#submit{
+    background-color: #CC3333;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#submit:hover{
+    background-color: black;
+    color: #CC3333;
+}
 
 footer {
     background-color: black;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    margin-top: 20px;
+    border-radius: 45px;
 }
 
 @media (max-width: 300px){
@@ -44,6 +94,9 @@ footer {
 
 @media (max-width: 600px) and (min-width:300px){
     nav{
+        border-radius: 0px;
+    }
+    footer{
         border-radius: 0px;
     }
 }
