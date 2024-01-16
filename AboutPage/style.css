@@ -16,6 +16,7 @@ nav {
     position: sticky;
     top: 0px;
     margin-bottom: 10px;
+    z-index: 100;
 }
 
 nav a {

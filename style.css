@@ -15,6 +15,7 @@ nav {
     border-radius: 45px;
     position: sticky;
     top: 0px;
+    z-index: 100;
 }
 
 nav a {
