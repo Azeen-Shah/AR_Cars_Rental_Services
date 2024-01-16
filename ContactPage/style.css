@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 nav {
@@ -27,6 +34,12 @@ nav a:hover{
 
 a img{
     height: 2.5em;
+}
+
+#tab{
+    font-weight: 600;
+    color: #CC3333;
+    border-bottom: 2px solid #CC3333;
 }
 
 #con{

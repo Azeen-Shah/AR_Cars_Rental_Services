@@ -32,6 +32,12 @@ a img{
     height: 2.5em;
 }
 
+#tab{
+    font-weight: 600;
+    color: #CC3333;
+    border-bottom: 2px solid #CC3333;
+}
+
 #container{
     width: 90vw;
     background-color: #fff;
