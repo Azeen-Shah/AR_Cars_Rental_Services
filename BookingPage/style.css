@@ -3,9 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    overflow-x: hidden;
-    width: 100vw;
-    z-index: 100;
 }
 
 nav {
@@ -85,27 +82,28 @@ form{
     margin-right: 30px;
 }
 
-#Submit{
-    margin: 30px;
-    padding: 5px;
-    width: 80%;
-    border-radius: 30px;
-    height: 50px;
+#bottum{
+    margin-bottom: 30px;
+}
+
+#thnks{
     background-color: #CC3333;
-}
-
-#Submit a{
     color: white;
+    border: 2px solid black;
+    border-radius: 40px;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 1em;
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
-#Submit:hover{
+#thnks:hover{
     background-color: black;
-}
-
-#Submit a:hover{
     color: #CC3333;
 }
 
