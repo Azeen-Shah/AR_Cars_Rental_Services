@@ -124,6 +124,7 @@ h1{
     justify-content: center;
     align-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 h2{
@@ -143,7 +144,7 @@ h2{
     margin: 0px 4px;
 }
 #whatsapp{
-    height: 30px;
+    width: 20px;
 }
 
 #img{
